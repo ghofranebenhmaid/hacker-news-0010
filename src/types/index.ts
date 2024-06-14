@@ -26,7 +26,7 @@ export interface CardProps {
   title: string;
   score: number;
   author: string;
-  readMoreUrl: string;
+  readMoreUrl?: string;
   imageUrl?: string;
   userId?: string;
   srcset?: string;
